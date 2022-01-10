@@ -1,0 +1,23 @@
+﻿<Window x:Class="Snake.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snake"
+        mc:Ignorable="d"
+        Title="Snake The Game" Height="450" Width="800" Icon="Resources/Snake.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resources/Snake_Background2.jpg"/>
+        </Grid.Background>
+        <ComboBox HorizontalAlignment="Left" Margin="252,160,0,0" VerticalAlignment="Top" Width="183" SelectionChanged="ComboBox_SelectionChanged" FontFamily="{DynamicResource Fonts}" FontSize="20" Background="Black" BorderBrush="White" Foreground="Black">
+            <ComboBoxItem Name="lRu" Content="{DynamicResource Ru}" Tag="ru-RU" Foreground="Black"/>
+            <ComboBoxItem Name="lEn" Content="{DynamicResource En}" Tag="en-US" Foreground="Black"/>
+            <ComboBoxItem Name="lDe" Content="{DynamicResource De}" Tag="de-DE" Foreground="Black"/>
+            <ComboBoxItem Name="lFr" Content="{DynamicResource Fr}" Tag="fr-FR" Foreground="Black"/>
+            <ComboBoxItem Name="lJa" Content="{DynamicResource Ja}" Tag="ja-JP" Foreground="Black"/>
+        </ComboBox>
+        <Button Content="{DynamicResource BACK}" HorizontalAlignment="Left" Margin="252,194,0,0" VerticalAlignment="Top" Width="183" Height="47" FontSize="22"  FontFamily="{DynamicResource Fonts}" Background="Black" BorderBrush="White" Foreground="White" Click="Back_Click"/>
+
+    </Grid>
+</Window>

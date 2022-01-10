@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="Status">Статус : </v:String>
+    <v:String x:Key="Score">Счет</v:String>
+    <v:String x:Key="Speed">Скорость : </v:String>
+    <v:String x:Key="BACK">НАЗАД</v:String>
+    <v:String x:Key="SETTINGS">НАСТРОЙКИ</v:String>
+    <v:String x:Key="START">СТАРТ</v:String>
+    <v:String x:Key="EXIT">ВЫХОД</v:String>
+    <v:String x:Key="Game_Over">ИГРА ОКОНЧЕНА</v:String>
+    <v:String x:Key="In_Game">В ИГРЕ</v:String>
+    <v:String x:Key="Paused">ПАУЗА</v:String>
+    <v:String x:Key="Enter_continue">НАЖМИТЕ ENTER ДЛЯ ПРОДОЛЖЕНИЯ</v:String>
+    <v:String x:Key="Space_restart">НАЖМИТЕ SPACE ДЛЯ ПЕРЕЗАПУСКА</v:String>
+    <v:String x:Key="Your Score">ВАШ СЧЕТ</v:String>
+    <v:String x:Key="lang">ЯЗЬIК</v:String>
+    <FontFamily x:Key="Fonts">/Snake;component/Resources/#NFS font</FontFamily>
+    <v:String x:Key="En">Английский</v:String>
+    <v:String x:Key="Ru">Русский</v:String>
+    <v:String x:Key="De">Немецкий</v:String>
+    <v:String x:Key="Fr">Французский</v:String>
+    <v:String x:Key="Ja">Японский</v:String>
+</ResourceDictionary>
